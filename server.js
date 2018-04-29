@@ -13,7 +13,7 @@ app.get('/:time',(req,res) => {
   //
   unixTimeStamp = (unix) => {
      var date = new Date(unix * 1000);
-     var months = ['Jan','Feb','Mar','Apl','May','Jun','July','Aug','Sep','Oct','Nov','Dec'];
+     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
      var month = months[date.getMonth()];
      var day = date.getDate();
      var year = date.getFullYear();
